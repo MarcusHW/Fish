@@ -7,6 +7,7 @@ public class Fish {
     public static void main(String[] args) throws InterruptedException {
         WebDriver webDriver = getWebDriver("https://www.jianyu360.com/jylab/supsearch/index.html");
         Work.worker(webDriver);
+
     }
 
 
